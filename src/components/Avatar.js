@@ -13,8 +13,8 @@ export const Avatar = ({ src, children: childrenProp, size, ...props }) => {
   return (
     <div
       style={{
-        width: 64,
-        height: 64,
+        width: 40,
+        height: 40,
         fontSize: 24,
         ...(size === "sm" && {
           width: 64,
